@@ -1,8 +1,18 @@
+# Unmasking Bot Activity: Identifying Automated Tweets in the Ukraine-Russia Conflict Discourse
+## SENG 550, Fall 2023, Final Project
+
+### Group 1
+ * Victor Han 30112492
+ * Cebrail Durna 30124142
+ * Callum Matheson 30066858
+ * Logan Perry-Din 30070661
 
 
-Download the noteboook file and upload to databricks to run the code.
+### Source Code
+This Repository contains source code and raw data for our SENG 550 final project. All source code is contained in the notebook `SENG 550 Project.ipynb`, which includes comments for all cells of code.
 
-Make sure at least one csv file from the dataset in uploaded to the databricks file system. 
+### Data Source
+The data source for this project was sourced from kaggle with a creative commons free use license and can be found [here](https://www.kaggle.com/datasets/bwandowando/ukraine-russian-crisis-twitter-dataset-1-2-m-rows).
 
-Change the file path to your accounts file system.
-
+### Running the Code
+To run the code, download the notebook `SENG 550 Project.ipynb` and upload to databricks. Upload all the raw data and update the file path to your databricks workspace. When the data is properly, loaded, click `Run All` to run all cells and view the feature extraction, heuristic evaluation execution and ML model execution.
